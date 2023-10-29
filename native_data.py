@@ -4,7 +4,7 @@ import plotly.express as px
 from integrated_data import generate_plotly_chart, generate_matplotlib_chart, generate_seaborn_chart, generate_bokeh_chart
 
 # Load the data
-data = pd.read_csv('C:/Users/33652/datavizprojet/Acquisitions_nationalite_francaise___8juillet2016.csv', encoding='ISO-8859-1', dtype={'Year': str})
+data = pd.read_csv('Acquisitions_nationalite_francaise___8juillet2016.csv', encoding='ISO-8859-1', dtype={'Year': str})
 
 # Convert the "Year" column to numeric, replacing invalid values with NaN
 data['Year'] = pd.to_numeric(data['Year'], errors='coerce')
