@@ -3,3 +3,4 @@ plotly
 matplotlib
 seaborn
 bokeh
+integrated_data
